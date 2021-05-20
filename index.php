@@ -36,6 +36,7 @@
 		<ul>
 			<li><a href="/lessons-files/001-syntax.php">Syntax</a></li>
 			<li><a href="/lessons-files/002-output.php">Output</a></li>
+			<li><a href="/lessons-files/003-variables.php">Variables</a></li>
 		</ul>
 	</div>
 </body>
