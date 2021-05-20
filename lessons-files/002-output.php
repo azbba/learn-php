@@ -36,3 +36,13 @@
 			or use
 			echo "There's no account with this id";
 */
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn PHP - Output</title>
+</head>
+<body>
+	<h1>PHP Output</h1>
+</body>
+</html>
