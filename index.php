@@ -38,6 +38,7 @@
 			<li><a href="/lessons-files/002-output.php">Output</a></li>
 			<li><a href="/lessons-files/003-variables.php">Variables</a></li>
 			<li><a href="/lessons-files/004-concatenation.php">Concatenation</a></li>
+			<li><a href="/lessons-files/005-comments.php">Comments</a></li>
 		</ul>
 	</div>
 </body>
