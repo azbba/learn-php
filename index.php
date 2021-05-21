@@ -41,6 +41,7 @@
 			<li><a href="/lessons-files/005-comments.php">Comments</a></li>
 			<li><a href="/lessons-files/006-datatypes.php">Data types</a></li>
 			<li><a href="/lessons-files/007-constants.php">Constants</a></li>
+			<li><a href="/lessons-files/008-if-elseif-else.php">Conditional Statements</a></li>
 		</ul>
 	</div>
 </body>
