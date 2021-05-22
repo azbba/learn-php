@@ -44,6 +44,7 @@
 			<li><a href="/lessons-files/008-if-elseif-else.php">Conditional Statements</a></li>
 			<li><a href="/lessons-files/009-operators.php">Operators</a></li>
 			<li><a href="/lessons-files/010-loops.php">Loops</a></li>
+			<li><a href="/lessons-files/011-functions.php">Functions</a></li>
 		</ul>
 	</div>
 </body>
