@@ -6,7 +6,7 @@
 	- [ print ] => Output a string
 		Exp: print 'Hello PHP';
 	- Difference between [ echo ] and [ print ] 
-		Speed: 		[ echo ] is faster then [ print ]
+		Speed: 		[ echo ] is faster than [ print ]
 		Expression: [ print ] behaves like a function
 		Parameters: [ echo ] is valid to use a [,] between the strings but without using the [ () ] 
 			Exp:
@@ -17,7 +17,7 @@
 		Return:
 			[ Echo ] 	No value returned
 			[ Print ]	Returns 1, always.
-	- [ '' ] Single quote is faster then [ "" ]
+	- [ '' ] Single quote is faster than [ "" ]
 	- [ printf ] Output a formatted string
 		Syntax:
 			printf ( $format, ...$values )
