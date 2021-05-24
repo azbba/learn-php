@@ -46,6 +46,7 @@
 			<li><a href="/lessons-files/010-loops.php">Loops</a></li>
 			<li><a href="/lessons-files/011-functions.php">Functions</a></li>
 			<li><a href="/lessons-files/012-arrays.php">Arrays</a></li>
+			<li><a href="/lessons-files/013-array-methods.php">Arrays Methods</a></li>
 		</ul>
 	</div>
 </body>

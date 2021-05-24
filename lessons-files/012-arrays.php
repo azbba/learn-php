@@ -51,7 +51,7 @@
 					$user = [
 						'first_name'	=> 'Azzedine',
 						'user_name'		=> 'AzBba',
-						'age'				=> 92,
+						'age'				=> 29,
 						'address'		=> [
 							'country'	=> 'algeria',
 							'city'		=> 'B.B.A'
