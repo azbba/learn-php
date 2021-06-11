@@ -50,6 +50,7 @@
 			<li><a href="/lessons-files/014-string-methods.php">String Methods</a></li>
 			<li><a href="/lessons-files/015-control-structures.php">Control Structures</a></li>
 			<li><a href="/lessons-files/016-file-system.php">File System</a></li>
+			<li><a href="/lessons-files/017-predefined-variables.php">Predefined Variables</a></li>
 		</ul>
 	</div>
 </body>
