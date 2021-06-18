@@ -47,20 +47,13 @@
 					// Set cookie value to null, and enter expire date in the past
 					setcookie( 'oldCookieName', '', time() - 3600, '/' );
 	*/
-	setcookie( 'theme', 'dark-theme', [
-		'expires'	=> time() + 3600,
-		'path'		=> '/'
-	] );
-	setcookie( 'theme', NULL, time() - 3600, '/' );
-	setcookie( 'status', NULL, time() - 3600, '/' );
-	echo '<pre>' . print_r($_COOKIE, true) . '</pre>';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Learn PHP - Predefined Variables</title>
+	<title>Learn PHP - Cookie</title>
 </head>
 <body>
-	<h1>PHP Predefined Variables</h1>
+	<h1>PHP Cookie</h1>
 </body>
 </html>

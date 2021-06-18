@@ -52,6 +52,7 @@
 			<li><a href="/lessons-files/016-file-system.php">File System</a></li>
 			<li><a href="/lessons-files/017-predefined-variables.php">Predefined Variables</a></li>
 			<li><a href="/lessons-files/018-cookie.php">Cookie</a></li>
+			<li><a href="/lessons-files/019-session.php">Session</a></li>
 		</ul>
 	</div>
 </body>
