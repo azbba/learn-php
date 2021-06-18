@@ -54,6 +54,7 @@
 			<li><a href="/lessons-files/018-cookie.php">Cookie</a></li>
 			<li><a href="/lessons-files/019-session.php">Session</a></li>
 			<li><a href="/lessons-files/020-misc-functions.php">Misc Functions</a></li>
+			<li><a href="/lessons-files/021-variable-handling-functions.php">Variable handling Functions</a></li>
 		</ul>
 	</div>
 </body>
