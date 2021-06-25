@@ -6,7 +6,6 @@
 	<style>
 		* {
 			box-sizing: border-box;
-			margin: 0;
 			padding: 0;
 		}
 		body {
@@ -23,17 +22,29 @@
 		h1 {
 			text-align: center;
 		}
-		ul {
-			list-style: none;
+		ol {
+			/*list-style: none;*/
 			display: grid;
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(3, 1fr);
+		}
+		li {
+			line-height: 2;
+		}
+		a {
+			text-decoration: none;
+			color: #323232;
+			transition: .2s;
+		}
+		a:hover {
+			color: #ee290f;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<h1>Learn PHP From Scratch</h1>
-		<ul>
+		<h2>PHP Basics:</h2>	
+		<ol>
 			<li><a href="/lessons-files/001-syntax.php">Syntax</a></li>
 			<li><a href="/lessons-files/002-output.php">Output</a></li>
 			<li><a href="/lessons-files/003-variables.php">Variables</a></li>
@@ -57,7 +68,8 @@
 			<li><a href="/lessons-files/021-variable-handling-functions.php">Variable handling Functions</a></li>
 			<li><a href="/lessons-files/022-filter.php">Filter</a></li>
 			<li><a href="/lessons-files/023-date.php">Date</a></li>
-		</ul>
+		</ol>
+		<h2>PHP OOP</h2>
 	</div>
 </body>
 </html>
