@@ -75,6 +75,7 @@
 			<li><a href="/lessons-files/oop/002-classes-objects.php">Classes and Objects</a></li>
 			<li><a href="/lessons-files/oop/003-encapsulation.php">Encapsulation</a></li>
 			<li><a href="/lessons-files/oop/004-inheritance.php">Inheritance</a></li>
+			<li><a href="/lessons-files/oop/005-abstraction.php">Abstraction</a></li>
 		</ol>
 	</div>
 </body>

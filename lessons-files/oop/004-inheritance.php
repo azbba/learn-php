@@ -15,7 +15,7 @@
 		- Exp:
 */
 
-final class User {
+class User {
 	// Properties
 	public string $name;
 	public string $email;
