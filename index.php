@@ -76,6 +76,7 @@
 			<li><a href="/lessons-files/oop/003-encapsulation.php">Encapsulation</a></li>
 			<li><a href="/lessons-files/oop/004-inheritance.php">Inheritance</a></li>
 			<li><a href="/lessons-files/oop/005-abstraction.php">Abstraction</a></li>
+			<li><a href="/lessons-files/oop/006-polymorphism.php">Polymorphism</a></li>
 		</ol>
 	</div>
 </body>
