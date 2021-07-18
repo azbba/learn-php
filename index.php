@@ -79,6 +79,7 @@
 			<li><a href="/lessons-files/oop/006-polymorphism.php">Polymorphism</a></li>
 			<li><a href="/lessons-files/oop/007-visibility.php">Visibility</a></li>
 			<li><a href="/lessons-files/oop/008-magic-methods.php">Magic Methods</a></li>
+			<li><a href="/lessons-files/oop/009-static-methods-properties.php">Static Methods and Properties</a></li>
 		</ol>
 	</div>
 </body>
