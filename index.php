@@ -78,6 +78,7 @@
 			<li><a href="/lessons-files/oop/005-abstraction.php">Abstraction</a></li>
 			<li><a href="/lessons-files/oop/006-polymorphism.php">Polymorphism</a></li>
 			<li><a href="/lessons-files/oop/007-visibility.php">Visibility</a></li>
+			<li><a href="/lessons-files/oop/008-magic-methods.php">Magic Methods</a></li>
 		</ol>
 	</div>
 </body>
