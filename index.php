@@ -45,29 +45,29 @@
 		<h1>Learn PHP From Scratch</h1>
 		<h2>PHP Basics:</h2>	
 		<ol>
-			<li><a href="/lessons-files/001-syntax.php">Syntax</a></li>
-			<li><a href="/lessons-files/002-output.php">Output</a></li>
-			<li><a href="/lessons-files/003-variables.php">Variables</a></li>
-			<li><a href="/lessons-files/004-concatenation.php">Concatenation</a></li>
-			<li><a href="/lessons-files/005-comments.php">Comments</a></li>
-			<li><a href="/lessons-files/006-datatypes.php">Data types</a></li>
-			<li><a href="/lessons-files/007-constants.php">Constants</a></li>
-			<li><a href="/lessons-files/008-if-elseif-else.php">Conditional Statements</a></li>
-			<li><a href="/lessons-files/009-operators.php">Operators</a></li>
-			<li><a href="/lessons-files/010-loops.php">Loops</a></li>
-			<li><a href="/lessons-files/011-functions.php">Functions</a></li>
-			<li><a href="/lessons-files/012-arrays.php">Arrays</a></li>
-			<li><a href="/lessons-files/013-array-methods.php">Arrays Methods</a></li>
-			<li><a href="/lessons-files/014-string-methods.php">String Methods</a></li>
-			<li><a href="/lessons-files/015-control-structures.php">Control Structures</a></li>
-			<li><a href="/lessons-files/016-file-system.php">File System</a></li>
-			<li><a href="/lessons-files/017-predefined-variables.php">Predefined Variables</a></li>
-			<li><a href="/lessons-files/018-cookie.php">Cookie</a></li>
-			<li><a href="/lessons-files/019-session.php">Session</a></li>
-			<li><a href="/lessons-files/020-misc-functions.php">Misc Functions</a></li>
-			<li><a href="/lessons-files/021-variable-handling-functions.php">Variable handling Functions</a></li>
-			<li><a href="/lessons-files/022-filter.php">Filter</a></li>
-			<li><a href="/lessons-files/023-date.php">Date</a></li>
+			<li><a href="/lessons-files/basics/001-syntax.php">Syntax</a></li>
+			<li><a href="/lessons-files/basics/002-output.php">Output</a></li>
+			<li><a href="/lessons-files/basics/003-variables.php">Variables</a></li>
+			<li><a href="/lessons-files/basics/004-concatenation.php">Concatenation</a></li>
+			<li><a href="/lessons-files/basics/005-comments.php">Comments</a></li>
+			<li><a href="/lessons-files/basics/006-datatypes.php">Data types</a></li>
+			<li><a href="/lessons-files/basics/007-constants.php">Constants</a></li>
+			<li><a href="/lessons-files/basics/008-if-elseif-else.php">Conditional Statements</a></li>
+			<li><a href="/lessons-files/basics/009-operators.php">Operators</a></li>
+			<li><a href="/lessons-files/basics/010-loops.php">Loops</a></li>
+			<li><a href="/lessons-files/basics/011-functions.php">Functions</a></li>
+			<li><a href="/lessons-files/basics/012-arrays.php">Arrays</a></li>
+			<li><a href="/lessons-files/basics/013-array-methods.php">Arrays Methods</a></li>
+			<li><a href="/lessons-files/basics/014-string-methods.php">String Methods</a></li>
+			<li><a href="/lessons-files/basics/015-control-structures.php">Control Structures</a></li>
+			<li><a href="/lessons-files/basics/016-file-system.php">File System</a></li>
+			<li><a href="/lessons-files/basics/017-predefined-variables.php">Predefined Variables</a></li>
+			<li><a href="/lessons-files/basics/018-cookie.php">Cookie</a></li>
+			<li><a href="/lessons-files/basics/019-session.php">Session</a></li>
+			<li><a href="/lessons-files/basics/020-misc-functions.php">Misc Functions</a></li>
+			<li><a href="/lessons-files/basics/021-variable-handling-functions.php">Variable handling Functions</a></li>
+			<li><a href="/lessons-files/basics/022-filter.php">Filter</a></li>
+			<li><a href="/lessons-files/basics/023-date.php">Date</a></li>
 		</ol>
 		<h2>PHP OOP</h2>
 		<ol>
