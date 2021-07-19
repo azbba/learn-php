@@ -83,6 +83,7 @@
 			<li><a href="/lessons-files/oop/010-method-chaining.php">Method Chaining</a></li>
 			<li><a href="/lessons-files/oop/011-trait.php">Trait</a></li>
 			<li><a href="/lessons-files/oop/012-namespace.php">Namespace</a></li>
+			<li><a href="/lessons-files/oop/013-autoloading-classes.php">Autoloading Classes</a></li>
 		</ol>
 	</div>
 </body>
