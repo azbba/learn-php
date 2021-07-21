@@ -90,9 +90,13 @@ try {
 } catch ( PDOException $e ) {
 	die( $e->getMessage() );
 }
+// $db->query( 'INSERT INTO users (username, password, email) VALUES( "azzedine", "secret", "az92bba@gmail.com" )' );
+// $db->query( 'UPDATE users SET username = "azzedine" WHERRE username = "azzedine"' );
+// $db->query( 'DELETE FROM users WHERE username = "azzedine"' );
+// $db->query( 'SELECT * FROM users' )->fetchAll();
 
 echo '<pre>'; 
-	print_r( $db->query(' select * from users ')->fetchAll() );
+	print_r( $db->query(' SELECT * FROM users ')->fetchAll() );
 echo '</pre>';
 
 ?>
