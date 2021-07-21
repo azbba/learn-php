@@ -8,7 +8,7 @@
 			- $dsn	=> - The data source name
 							- Contains the information required to connect to the database.
 							- Exp: 
-								'mysql:host=?port=;dbname=?;charset=?;'
+								'mysql:host=?port=;dbname=?;charset=?;connect_timeout=?'
 								'mysql:host=localhost;dbname=db';
 			- $username	=> The user name for the DSN string.
 			- $password	=> The password for the DSN string.
@@ -23,9 +23,50 @@
 				]
 			- [3] => Using exec() method:
 				$connect->exec( 'set names utf8' );
-		- Error mode:
+		- Error reporting:
 			[
-				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+				PDO::ATTR_ERRMODE [
+					PDO::ERRMODE_SILENT,
+					PDO::ERRMODE_EXCEPTION,
+					PDO::ERRMODE_WARNING,
+				]
+			]
+		- Case ( Force column names to a specific case )
+			[
+				PDO::ATTR_CASE [
+					PDO::CASE_LOWER	=> Force column names to lower case.
+					PDO::CASE_NATURAL	=> Leave column names as returned by the database driver.
+					PDO::CASE_UPPER	=> Force column names to upper case.
+				]
+			]
+		- Conversion of NULL and empty strings. ( for all drivers not just Oracle )
+			[
+				PDO::ATTR_ORACLE_NULLS [
+					PDO::NULL_NATURAL 			=> No conversion.
+					PDO::NULL_EMPTY_STRING:		=> Empty string is converted to null.
+					PDO::NULL_TO_STRING			=> NULL is converted to an empty string.
+				]
+			]
+		- Convert numeric values to strings when fetching
+			[
+				PDO::ATTR_STRINGIFY_FETCHES	=> true | false
+			]
+		- Specifies the timeout duration in seconds.
+			[
+				PDO::ATTR_TIMEOUT		=> Requires int
+			]
+		- Enables or disables emulation of prepared statements.
+			[
+				PDO::ATTR_EMULATE_PREPARES	=> true | false
+			]
+		- Set default fetch mode
+			[
+				PDO::ATTR_DEFAULT_FETCH_MODE [
+					PDO::FETCH_BOTH	=> Return an array indexed by both 0-indexed and column name (default).
+					PDO::FETCH_ASSOC	=> Returns an array indexed by column name.
+					PDO::FETCH_CLASS	=> Returns a new instance of the requested class, mapping the columns of the result set to named properties in the class.
+					...					=> [ More mode when learn PDOStatement::fetch ]
+				]
 			]
 */
 
@@ -36,8 +77,10 @@ try {
 	$user = 'root';
 	$pass = '';
 	$options = [
-		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-		PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+		PDO::ATTR_DEFAULT_FETCH_MODE 	=> PDO::FETCH_ASSOC,
+		PDO::ATTR_TIMEOUT					=> 30,
+		PDO::ATTR_ERRMODE 				=> PDO::ERRMODE_EXCEPTION,
+		PDO::MYSQL_ATTR_INIT_COMMAND 	=> "SET NAMES utf8"
 	];
 
 	$db = new PDO( $dsn, $user, $pass, $options );
@@ -49,7 +92,7 @@ try {
 }
 
 echo '<pre>'; 
-	var_dump( $db );
+	print_r( $db->query(' select * from users ')->fetchAll() );
 echo '</pre>';
 
 ?>
