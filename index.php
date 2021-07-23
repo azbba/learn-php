@@ -92,6 +92,7 @@
 			<li><a href="/lessons-files/pdo/003-fetch.php">Fetch</a></li>
 			<li><a href="/lessons-files/pdo/004-prepared-statements.php">Prepared Statements</a></li>
 			<li><a href="/lessons-files/pdo/005-binds-parameters.php">Binds parameters to Prepared Statements</a></li>
+			<li><a href="/lessons-files/pdo/006-counts.php">Counts</a></li>
 		</ol>
 	</div>
 </body>
