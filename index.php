@@ -90,6 +90,7 @@
 			<li><a href="/lessons-files/pdo/001-intro-connect.php">Intro + Connect</a></li>
 			<li><a href="/lessons-files/pdo/002-execute-statements.php">Execute the statements</a></li>
 			<li><a href="/lessons-files/pdo/003-fetch.php">Fetch</a></li>
+			<li><a href="/lessons-files/pdo/004-prepared-statements.php">Prepared Statements</a></li>
 		</ol>
 	</div>
 </body>
